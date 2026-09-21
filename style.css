@@ -14,7 +14,7 @@ background-color: #fff8f5;
 color: #3d2924;
 }
 
-/* TOP BAR */
+
 
 .top-bar {
 background-color: #3d2924;
@@ -24,7 +24,7 @@ padding: 10px;
 font-size: 13px;
 }
 
-/* HEADER */
+
 
 header {
 background-color: #fff8f5;
@@ -66,7 +66,6 @@ border-radius: 5px;
 font-size: 13px;
 }
 
-/* COMMON */
 
 .eyebrow {
 color: #c96f83;
@@ -82,7 +81,7 @@ h3 {
 font-family: Georgia, serif;
 }
 
-/* BUTTON */
+
 
 .primary-button {
 display: inline-block;
@@ -112,7 +111,7 @@ padding: 12px 22px;
 border-radius: 5px;
 }
 
-/* HERO */
+
 
 .hero {
 background-color: #f7e9e3;
@@ -154,7 +153,7 @@ object-fit: cover;
 border-radius: 150px 150px 0 0;
 }
 
-/* INTRO */
+
 
 .intro {
 text-align: center;
@@ -177,7 +176,7 @@ color: #6b554c;
 line-height: 1.8;
 }
 
-/* ABOUT */
+
 
 .about {
 background-color: #ead7ce;
@@ -207,7 +206,7 @@ line-height: 1.8;
 margin-bottom: 15px;
 }
 
-/* SECTION HEADING */
+
 
 .section-heading {
 text-align: center;
@@ -228,7 +227,7 @@ color: #6b554c;
 margin-top: 15px;
 }
 
-/* MENU */
+
 
 .menu {
 padding: 90px 7%;
@@ -242,7 +241,7 @@ max-width: 1200px;
 margin: auto;
 }
 
-/* MENU CARD */
+
 
 .menu-item {
 background-color: #f5e8e1;
@@ -252,8 +251,7 @@ height: 300px;
 overflow: hidden;
 }
 
-/* VERY IMPORTANT:
-ALL MENU IMAGES SAME SIZE */
+
 
 .menu-image {
 width: 100%;
@@ -295,7 +293,6 @@ font-weight: bold;
 font-size: 13px;
 }
 
-/* CUSTOM CAKE */
 
 .special {
 width: 86%;
@@ -347,7 +344,6 @@ height: 430px;
 object-fit: cover;
 }
 
-/* GALLERY */
 
 .gallery {
 padding: 90px 7%;
@@ -361,7 +357,7 @@ grid-template-columns: repeat(3, 1fr);
 gap: 15px;
 }
 
-/* ALL GALLERY IMAGES SAME SIZE */
+
 
 .gallery-image {
 width: 100%;
@@ -376,7 +372,7 @@ object-fit: cover;
 display: block;
 }
 
-/* REVIEWS */
+
 
 .reviews {
 background-color: #f5e8e1;
@@ -408,7 +404,7 @@ line-height: 1.8;
 margin-bottom: 15px;
 }
 
-/* CONTACT */
+
 
 .contact {
 padding: 90px 7%;
@@ -455,7 +451,6 @@ color: #6b554c;
 font-size: 13px;
 }
 
-/* FOOTER */
 
 footer {
 background-color: #3d2924;
@@ -491,13 +486,10 @@ color: #a99087;
 font-size: 11px;
 }
 
-/* =========================
-TABLET
-========================= */
 
 @media (max-width: 900px) {
 
-```
+
 .hero {
     grid-template-columns: 1fr;
 }
@@ -517,13 +509,11 @@ TABLET
 .review-grid {
     grid-template-columns: 1fr;
 }
-```
+
 
 }
 
-/* =========================
-MOBILE
-========================= */
+
 
 @media (max-width: 600px) {
 
@@ -619,11 +609,11 @@ nav {
 
 }
 
-/* SMALL PHONE */
+
 
 @media (max-width: 400px) {
 
-```
+
 .gallery-grid {
     grid-template-columns: 1fr;
 }
@@ -635,7 +625,7 @@ nav {
 .gallery-image img {
     height: 280px;
 }
-```
+
 
 }
 
